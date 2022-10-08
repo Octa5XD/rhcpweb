@@ -11,5 +11,13 @@ h2{
     color: rgb(130, 130,200 );
 }
 p{
-    color: aqua;
+    color: rgb(16, 133, 127);
+}
+.rhcp{
+    width: 200px;
+    height: 200px;
+    background-image: url(./imagenes/rhcp\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
