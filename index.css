@@ -1,6 +1,23 @@
-h2{
-    color: brown;
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+
+@font-face {
+    font-family: 'Octa';
+    src: url(./fuentes/ComforterBrush-Regular.ttf);
 }
+*{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: bold;
+}
+
+h2{
+    font-family: 'Octa';
+}
+
+.texto1{
+    font-family: 'Octa';
+}
+
 .descripcion{
     color: blue;
 }
@@ -11,7 +28,7 @@ h2{
     color: rgb(130, 130,200 );
 }
 p{
-    color: rgb(16, 133, 127);
+    color: blue;
 }
 .rhcp{
     width: 200px;
